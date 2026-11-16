@@ -1,7 +1,7 @@
 {
   "name": "parallel",
   "displayName": "Parallel",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Search the live web and fetch page content with Parallel's hosted MCP server. Free access with no Parallel account, API key, or Parallel CLI required.",
   "logo": "assets/antigravity.svg",
   "suggestedPrompts": [
@@ -14,7 +14,7 @@
     "email": "support@parallel.ai",
     "url": "https://parallel.ai"
   },
-  "homepage": "https://docs.parallel.ai/search/search-mcp",
+  "homepage": "https://docs.parallel.ai/integrations/mcp/quickstart",
   "repository": "https://github.com/parallel-web/parallel-antigravity-plugin",
   "license": "MIT",
   "keywords": [
