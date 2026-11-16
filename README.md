@@ -1,7 +1,7 @@
 # Parallel for Antigravity
 
 Search the web and read pages from Antigravity with Parallel. This plugin provides
-`web_search` and `web_fetch` through the hosted Parallel Search MCP server.
+`web_search` and `web_fetch` through the unified Parallel MCP server.
 No Parallel account, API key, or Parallel CLI is required.
 
 ## Install
@@ -13,9 +13,8 @@ agy plugin install https://github.com/parallel-web/parallel-antigravity-plugin
 agy plugin list --json
 ```
 
-The plugin connects directly to Parallel's hosted Search MCP server. There is
-no Parallel sign-in or API key to configure. Antigravity may ask you to approve
-tool calls.
+Rerun the install command and start a new Antigravity session to update an
+existing CLI installation. Antigravity may ask you to approve tool calls.
 
 ### Install from a local checkout
 
@@ -43,11 +42,12 @@ Antigravity may ask you to approve a tool call.
 
 ## Privacy and support
 
-Tool calls send search queries, objectives, requested URLs, and optional session
-metadata to Parallel. The plugin configures no authentication headers or local
-commands. Anonymous access is subject to free-tier rate limits.
+Tool calls send their arguments, such as search queries or requested URLs, and
+standard MCP connection metadata to Parallel. The plugin configures no
+authentication headers or local commands. Anonymous access is subject to
+free-tier rate limits.
 
-See the [Search MCP documentation](https://docs.parallel.ai/search/search-mcp),
+See the [Parallel MCP documentation](https://docs.parallel.ai/integrations/mcp/quickstart),
 [Privacy Policy](https://parallel.ai/privacy-policy), and
 [Customer Terms](https://parallel.ai/customer-terms).
 For help, email [support@parallel.ai](mailto:support@parallel.ai).
