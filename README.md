@@ -1,7 +1,7 @@
 # Parallel for Antigravity
 
 Search the web and read pages from Antigravity with Parallel. This plugin provides
-`web_search` and `web_fetch` through the unified Parallel MCP server.
+`web_search` and `web_fetch` through Parallel MCP.
 No Parallel account, API key, or Parallel CLI is required.
 
 ## Install
